@@ -1,0 +1,4 @@
+openapi: 3.0.0
+info:
+  title: Todo example application
+  description: This is the base description of the todo application

@@ -1,0 +1,8 @@
+*.sublime-*
+.DS_Store
+.env
+node_modules
+npm-debug.log
+yarn-error.log
+docs/api/*.json
+redoc-static.html

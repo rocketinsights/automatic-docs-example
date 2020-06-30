@@ -1,0 +1,12 @@
+DROP SCHEMA IF EXISTS public CASCADE;
+CREATE SCHEMA public;
+
+CREATE TABLE todo (
+  id SERIAL,
+  description TEXT NOT NULL,
+  is_done BOOLEAN DEFAULT FALSE,
+  priority SMALLINT,
+  title VARCHAR(255) NOT NULL,
+  UNIQUE (title),
+  PRIMARY KEY (id)
+);

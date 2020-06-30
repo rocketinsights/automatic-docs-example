@@ -1,0 +1,20 @@
+[http]
+bad_request = 400
+unauthorized = 401
+not_found = 404
+duplicate = 409
+internal = 500
+
+[docs]
+missing_code = 100
+
+[db]
+connection = 1000
+read = 1000
+write = 1001
+delete = 1002
+internal = 1003
+
+[todo]
+not_found = 2004
+duplicate = 2001
